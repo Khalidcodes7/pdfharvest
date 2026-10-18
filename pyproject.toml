@@ -16,3 +16,6 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 include = ["pdfharvest*"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
